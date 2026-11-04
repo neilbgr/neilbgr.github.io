@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found</title>
+<meta name="robots" content="noindex">
+<script>
+  // Any old VCV Patch Tools address goes to Modular Patch Tools, query and hash kept.
+  if (location.pathname.indexOf("/VcvPatchTools") === 0) {
+    location.replace("/ModularPatchTools/" + location.search + location.hash);
+  }
+</script>
+</head>
+<body style="font-family: system-ui, sans-serif; margin: 3rem">
+<p>Page not found. Looking for <a href="/ModularPatchTools/">Modular Patch Tools</a>?</p>
+</body>
+</html>
